@@ -15,6 +15,8 @@
 		3F2666271BEA051B00100C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2666251BEA051B00100C75 /* LaunchScreen.storyboard */; };
 		3F2666321BEA051B00100C75 /* TDActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2666311BEA051B00100C75 /* TDActionSheetTests.m */; };
 		3F26663D1BEA051B00100C75 /* TDActionSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26663C1BEA051B00100C75 /* TDActionSheetUITests.m */; };
+		3F26664D1BEA05A200100C75 /* TDActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26664C1BEA05A200100C75 /* TDActionSheet.m */; };
+		3F26664F1BEA09E200100C75 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F26664E1BEA09E200100C75 /* 12.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		3F2666381BEA051B00100C75 /* TDActionSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDActionSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F26663C1BEA051B00100C75 /* TDActionSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDActionSheetUITests.m; sourceTree = "<group>"; };
 		3F26663E1BEA051B00100C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F26664B1BEA05A200100C75 /* TDActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDActionSheet.h; sourceTree = "<group>"; };
+		3F26664C1BEA05A200100C75 /* TDActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDActionSheet.m; sourceTree = "<group>"; };
+		3F26664E1BEA09E200100C75 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,8 @@
 		3F2666161BEA051B00100C75 /* TDActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				3F26664E1BEA09E200100C75 /* 12.png */,
+				3F26664A1BEA054E00100C75 /* TDActionSheet */,
 				3F26661A1BEA051B00100C75 /* AppDelegate.h */,
 				3F26661B1BEA051B00100C75 /* AppDelegate.m */,
 				3F26661D1BEA051B00100C75 /* ViewController.h */,
@@ -138,6 +145,15 @@
 				3F26663E1BEA051B00100C75 /* Info.plist */,
 			);
 			path = TDActionSheetUITests;
+			sourceTree = "<group>";
+		};
+		3F26664A1BEA054E00100C75 /* TDActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				3F26664B1BEA05A200100C75 /* TDActionSheet.h */,
+				3F26664C1BEA05A200100C75 /* TDActionSheet.m */,
+			);
+			path = TDActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2666271BEA051B00100C75 /* LaunchScreen.storyboard in Resources */,
+				3F26664F1BEA09E200100C75 /* 12.png in Resources */,
 				3F2666241BEA051B00100C75 /* Assets.xcassets in Resources */,
 				3F2666221BEA051B00100C75 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F26661F1BEA051B00100C75 /* ViewController.m in Sources */,
+				3F26664D1BEA05A200100C75 /* TDActionSheet.m in Sources */,
 				3F26661C1BEA051B00100C75 /* AppDelegate.m in Sources */,
 				3F2666191BEA051B00100C75 /* main.m in Sources */,
 			);

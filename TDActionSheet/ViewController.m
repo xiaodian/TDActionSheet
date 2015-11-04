@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TDActionSheet.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)show:(id)sender {
+    NSArray *titles = @[@"12345",@"23456",@"34567",@"45678"];
+    TDActionSheet *actionSheet = [[TDActionSheet alloc] initWithTitles:titles callBack:^(NSInteger buttonIndex) {
+        NSLog(@"buttonIndex = %lu",buttonIndex);
+    }];
+    [actionSheet show];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
